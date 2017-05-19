@@ -3,4 +3,33 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+@import "compass";
+$border-footer: #DC6263;
+body{
+  background-image: url("../../img/html4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header{
+  img{
+    width: 200px;
+  }
+}
+#firstSlide::after{
+  content: "super";
+}
+footer{
+  color: white;
+  background-color: #333333;
+  border-top: 5px solid $border-footer;
+  img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  .border{
+    border-left: 2px solid $border-footer;
+  }
+}
