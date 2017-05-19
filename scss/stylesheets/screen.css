@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 8, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 body {
   background-image: url("../../img/html1.jpg");
   background-attachment: fixed;
@@ -11,46 +11,62 @@ body {
   background-position: center left;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 header img {
   width: 200px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 .site-content {
   background-color: #F7F7F7;
 }
+/* line 22, ../sass/screen.scss */
+.site-content h1 {
+  text-align: center;
+  color: #DC6263;
+}
 
-/* line 23, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 article {
   text-align: center;
   line-height: 50px;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
+.white {
+  padding-top: 20px;
+  color: #cccccc;
+}
+
+/* line 36, ../sass/screen.scss */
+.red {
+  color: #DC6263;
+}
+
+/* line 39, ../sass/screen.scss */
 #map {
   width: 90%;
   height: 100%;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 #firstSlide::after {
   content: "super";
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 footer {
   color: white;
   background-color: #333333;
   border-top: 5px solid #DC6263;
 }
-/* line 38, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 footer img {
   width: 150px;
   display: block;
   margin: 0 auto;
 }
-/* line 43, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 footer .border {
   border-left: 2px solid #DC6263;
 }

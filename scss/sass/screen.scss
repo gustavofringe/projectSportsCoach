@@ -5,6 +5,7 @@
 
 @import "compass";
 $border-footer: #DC6263;
+$red: #DC6263;
 body{
   background-image: url("../../img/html1.jpg");
   background-attachment: fixed;
@@ -18,11 +19,22 @@ header{
   }
 }
 .site-content{
+  h1{
+    text-align: center;
+    color: $red;
+  }
   background-color: #F7F7F7;
 }
 article{
   text-align: center;
   line-height: 50px;
+}
+.white{
+  padding-top: 20px;
+  color: #cccccc;
+}
+.red{
+  color: $red;
 }
 #map{
   width: 90%;
