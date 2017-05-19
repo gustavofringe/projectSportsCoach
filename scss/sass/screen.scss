@@ -20,9 +20,13 @@ header{
 .site-content{
   background-color: #F7F7F7;
 }
+article{
+  text-align: center;
+  line-height: 50px;
+}
 #map{
-  width: 500px;
-  height: 400px;
+  width: 90%;
+  height: 100%;
 }
 #firstSlide::after{
   content: "super";

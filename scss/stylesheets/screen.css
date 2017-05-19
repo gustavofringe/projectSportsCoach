@@ -22,29 +22,35 @@ header img {
 }
 
 /* line 23, ../sass/screen.scss */
-#map {
-  width: 500px;
-  height: 400px;
+article {
+  text-align: center;
+  line-height: 50px;
 }
 
 /* line 27, ../sass/screen.scss */
+#map {
+  width: 90%;
+  height: 100%;
+}
+
+/* line 31, ../sass/screen.scss */
 #firstSlide::after {
   content: "super";
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 footer {
   color: white;
   background-color: #333333;
   border-top: 5px solid #DC6263;
 }
-/* line 34, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 footer img {
   width: 150px;
   display: block;
   margin: 0 auto;
 }
-/* line 39, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 footer .border {
   border-left: 2px solid #DC6263;
 }
