@@ -10,7 +10,7 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="icon" href="../favicon.ico" />
     <link rel="stylesheet" href="../dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../dist/css/bootstrap-year-calendar.css">
+    <link rel="stylesheet" href="../dist/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="../scss/stylesheets/screen.css">
     <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -40,32 +40,61 @@
 
 </header>
 <main class="container">
-    <h1>Nous contacter</h1>
-    <div class="row">
-        <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6">
-            <article>
-                <h2>COORDONNÉES</h2>
-                <address>Fitness First <br>
+    <div class="site-content">
+        <h1>Nous contacter</h1>
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6">
+                <article>
+                    <h2>Nos coordonnées</h2>
+                    <address>Fitness First <br>
 
-                    centre sportifs Lille <br>
+                        centre sportifs Lille <br>
 
-                    145 rue du Ballon <br>
+                        145 rue du Ballon <br>
 
-                    59110 Lille <br>
+                        59110 Lille <br>
 
 
-                    <a href="mailto:example@example.com">Email : powershop@free.fr</a> <br>
+                        <a href="mailto:example@example.com">Email : powershop@free.fr</a> <br>
 
-                    <a href="tel: 0328369752">Tel : 03 28 36 97 52</a>
-                </address>
-            </article>
+                        <a href="tel: 0328369752">Tel : 03 28 36 97 52</a>
+                    </address>
+                </article>
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6" id="sandbox-container">
+                <h2>Veuillez seletionner une date</h2>
+            </div>
         </div>
-        <div class="input-group input-daterange">
-            <input type="text" class="form-control" value="2012-04-05">
-            <div class="input-group-addon">to</div>
-            <input type="text" class="form-control" value="2012-04-19">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6">
+                <div id="map"></div>
+                <!-- /#map -->
+            </div>
+            <!-- /.col-xs-12 col-md-12 col-lg-6 col-xl-6 -->
+            <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6">
+                <h2>Vos coordonnées</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleTextarea">Example textarea</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <!-- /.col-xs-12 col-md-12 col-lg-6 col-xl-6 -->
         </div>
+        <!-- /.row -->
     </div>
+    <!-- /.site-content -->
+
 
 </main>
 <footer>
@@ -127,6 +156,9 @@
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="../dist/js/bootstrap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0zZCpLabRlisarVr9Gepq-vJmO8ErIHI&callback=initMap" async
+        defer></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
 <script src="../dist/js/bootstrap-datepicker.js"></script>
 <script src="../js/main.js"></script>
 

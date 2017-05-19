@@ -6,16 +6,23 @@
 @import "compass";
 $border-footer: #DC6263;
 body{
-  background-image: url("../../img/html4.jpg");
+  background-image: url("../../img/html1.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center left;
 }
 header{
   img{
     width: 200px;
   }
+}
+.site-content{
+  background-color: #F7F7F7;
+}
+#map{
+  width: 500px;
+  height: 400px;
 }
 #firstSlide::after{
   content: "super";
@@ -34,14 +41,4 @@ footer{
   }
 }
 
-.datepicker {
-  padding: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  direction: ltr;
-  /*.dow {
-		border-top: 1px solid #ddd !important;
-	}*/
 
-}
