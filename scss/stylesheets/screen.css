@@ -37,3 +37,15 @@ footer img {
 footer .border {
   border-left: 2px solid #DC6263;
 }
+
+/* line 37, ../sass/screen.scss */
+.datepicker {
+  padding: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  direction: ltr;
+  /*.dow {
+		border-top: 1px solid #ddd !important;
+	}*/
+}
