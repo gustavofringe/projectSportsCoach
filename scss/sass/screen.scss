@@ -19,18 +19,18 @@ header{
   }
 }
 .site-content{
-  width: 100%;
-  height: 100%;
+
   h1{
     text-align: center;
     color: $red;
   }
   background-color: #F7F7F7;
-  img{
-    height: 800px;
+  .carousel{
+    width:1500px;
+    margin: 0 auto !important;
   }
 }
-article{
+.contact{
   text-align: center;
   line-height: 50px;
 }

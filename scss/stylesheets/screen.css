@@ -18,22 +18,21 @@ header img {
 
 /* line 21, ../sass/screen.scss */
 .site-content {
-  width: 100%;
-  height: 100%;
   background-color: #F7F7F7;
 }
-/* line 24, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 .site-content h1 {
   text-align: center;
   color: #DC6263;
 }
-/* line 29, ../sass/screen.scss */
-.site-content img {
-  height: 800px;
+/* line 28, ../sass/screen.scss */
+.site-content .carousel {
+  width: 1500px;
+  margin: 0 auto !important;
 }
 
 /* line 33, ../sass/screen.scss */
-article {
+.contact {
   text-align: center;
   line-height: 50px;
 }
