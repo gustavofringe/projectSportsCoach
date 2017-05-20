@@ -38,11 +38,23 @@ header{
   padding-top:30px;
 }
 .white{
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 25px;
+  }
   padding-top: 20px;
   color: #cccccc;
 }
 .red{
   color: $red;
+}
+.img-left{
+  padding-right:10px;
+}
+.img-advice{
+  padding-top:50px;
 }
 #map{
   width: 90%;

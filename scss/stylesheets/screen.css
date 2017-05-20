@@ -47,31 +47,49 @@ header img {
   padding-top: 20px;
   color: #cccccc;
 }
-
+/* line 41, ../sass/screen.scss */
+.white h1 {
+  font-size: 35px;
+}
 /* line 44, ../sass/screen.scss */
+.white h2 {
+  font-size: 25px;
+}
+
+/* line 50, ../sass/screen.scss */
 .red {
   color: #DC6263;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
+.img-left {
+  padding-right: 10px;
+}
+
+/* line 56, ../sass/screen.scss */
+.img-advice {
+  padding-top: 50px;
+}
+
+/* line 59, ../sass/screen.scss */
 #map {
   width: 90%;
   height: 100%;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 footer {
   color: white;
   background-color: #333333;
   border-top: 5px solid #DC6263;
 }
-/* line 55, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 footer img {
   width: 150px;
   display: block;
   margin: 0 auto;
 }
-/* line 60, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 footer .border {
   border-left: 2px solid #DC6263;
 }
